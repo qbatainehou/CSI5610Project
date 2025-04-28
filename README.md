@@ -1,11 +1,16 @@
 # CSI5610Project
-Python-based code to generate AST &amp; CFG from all JS files located in the same directory.
-This is a single file program that will generate an AST file and CFG file for each JavaScript code file located in the same folder.
-Simply, this tool will:
-1- Read JavaScript files from a specified directory
-2- Generate AST and CFG for each file
-3- Measure and report time and space complexity
-4- Save the results in output files
+This Python-based program processes JavaScript files from a local directory and performs the following tasks:
+1. Reads each JavaScript file.
+2. Uses two main functions:
+   Generates the AST (Abstract Syntax Tree) of the code.
+   Generates the CFG (Control Flow Graph) of the code.
+3. Saves the AST and CFG outputs into text files in a specified local path.
+4. Measures and records:
+       Time complexity
+       Space complexity
+       Execution time for each file
+5. Stores the performance metrics for all files in a CSV file.
+6. Generates a final summary report that compiles all results into a clear table.
 
 Quick Start:
 1. Install Required Packages
